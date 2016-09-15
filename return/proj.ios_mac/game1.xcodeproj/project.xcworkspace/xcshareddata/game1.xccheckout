@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EF4E7BE2-8863-4509-B070-E59880DBAEF6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>game1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505</key>
+		<string>http://aptech-eproject3.googlecode.com/svn/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>My_Game/game1/proj.ios_mac/game1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505</key>
+		<string>http://aptech-eproject3.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://aptech-eproject3.googlecode.com/svn/trunk/My_Game/game1/proj.ios_mac/game1.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Data</string>
+		</dict>
+	</array>
+</dict>
+</plist>

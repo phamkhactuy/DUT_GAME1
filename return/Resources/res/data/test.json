@@ -1,0 +1,9 @@
+{
+    "bomb": 2,
+    "timerbomb": 0,
+    "greenbomb": 0,
+    "rocket": 0,
+    "gas": 80,
+    "diamond": 25,
+    "enemy": 0
+}
