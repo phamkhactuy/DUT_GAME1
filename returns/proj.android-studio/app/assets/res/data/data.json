@@ -1,0 +1,479 @@
+{
+    "map1": {
+        "bomb": 2,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 25,
+        "enemy": 0
+    },
+    "map2": {
+        "bomb": 3,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 70,
+        "diamond": 27,
+        "enemy": 3
+    },
+    "map3": {
+        "bomb": 3,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 37,
+        "enemy": 3
+    },
+    "map4": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 35,
+        "enemy": 3
+    },
+    "map5": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 20,
+        "enemy": 0
+    },
+    "map6": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 60,
+        "diamond": 43,
+        "enemy": 0
+    },
+    "map7": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 24,
+        "enemy": 0
+    },
+    "map8": {
+        "bomb": 4,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 19,
+        "enemy": 0
+    },
+    "map9": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 10,
+        "diamond": 27,
+        "enemy": 3
+    },
+    "map10": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 5,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 28,
+        "enemy": 0
+    },
+    "map11": {
+        "bomb": 3,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 3,
+        "gas": 80,
+        "diamond": 42,
+        "enemy": 0
+    },
+    "map12": {
+        "bomb": 3,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 30,
+        "enemy": 5
+    },
+    "map13": {
+        "bomb": 5,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 45,
+        "enemy": 0
+    },
+    "map14": {
+        "bomb": 0,
+        "timerbomb": 2,
+        "greenbomb": 2,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 49,
+        "enemy": 8
+    },
+    "map15": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 60,
+        "diamond": 23,
+        "enemy": 7
+    },
+    "map16": {
+        "bomb": 5,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 23,
+        "enemy": 8
+    },
+    "map17": {
+        "bomb": 0,
+        "timerbomb": 25,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 60,
+        "diamond": 0,
+        "enemy": 10
+    },
+    "map18": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 25,
+        "gas": 60,
+        "diamond": 0,
+        "enemy": 10
+    },
+    "map19": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 20,
+        "diamond": 0,
+        "enemy": 9
+    },
+    "map20": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 21,
+        "enemy": 1
+    },
+    "map21": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 0,
+        "enemy": 7
+    },
+    "map22": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 1,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 15,
+        "enemy": 0
+    },
+    "map23": {
+        "bomb": 5,
+        "timerbomb": 4,
+        "greenbomb": 1,
+        "rocket": 0,
+        "gas": 20,
+        "diamond": 47,
+        "enemy": 7
+    },
+    "map24": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 0,
+        "enemy": 8
+    },
+    "map25": {
+        "bomb": 4,
+        "timerbomb": 2,
+        "greenbomb": 3,
+        "rocket": 0,
+        "gas": 20,
+        "diamond": 12,
+        "enemy": 8
+    },
+    "map26": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 35,
+        "enemy": 0
+    },
+    "map27": {
+        "bomb": 3,
+        "timerbomb": 3,
+        "greenbomb": 3,
+        "rocket": 3,
+        "gas": 80,
+        "diamond": 30,
+        "enemy": 9
+    },
+    "map28": {
+        "bomb": 5,
+        "timerbomb": 5,
+        "greenbomb": 5,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 0,
+        "enemy": 20
+    },
+    "map29": {
+        "bomb": 1,
+        "timerbomb": 1,
+        "greenbomb": 1,
+        "rocket": 0,
+        "gas": 60,
+        "diamond": 14,
+        "enemy": 7
+    },
+    "map30": {
+        "bomb": 3,
+        "timerbomb": 3,
+        "greenbomb": 3,
+        "rocket": 3,
+        "gas": 80,
+        "diamond": 0,
+        "enemy": 28
+    },
+    "map31": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 29,
+        "enemy": 0
+    },
+    "map32": {
+        "bomb": 1,
+        "timerbomb": 1,
+        "greenbomb": 1,
+        "rocket": 1,
+        "gas": 30,
+        "diamond": 45,
+        "enemy": 10
+    },
+    "map33": {
+        "bomb": 3,
+        "timerbomb": 3,
+        "greenbomb": 3,
+        "rocket": 3,
+        "gas": 50,
+        "diamond": 20,
+        "enemy": 8
+    },
+    "map34": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 12,
+        "enemy": 5
+    },
+    "map35": {
+        "bomb": 2,
+        "timerbomb": 1,
+        "greenbomb": 1,
+        "rocket": 0,
+        "gas": 60,
+        "diamond": 24,
+        "enemy": 7
+    },
+    "map36": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 0,
+        "enemy": 25
+    },
+    "map37": {
+        "bomb": 5,
+        "timerbomb": 6,
+        "greenbomb": 3,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 38,
+        "enemy": 19
+    },
+    "map38": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 50,
+        "diamond": 45,
+        "enemy": 9
+    },
+    "map39": {
+        "bomb": 1,
+        "timerbomb": 1,
+        "greenbomb": 1,
+        "rocket": 0,
+        "gas": 20,
+        "diamond": 20,
+        "enemy": 13
+    },
+    "map40": {
+        "bomb": 1,
+        "timerbomb": 1,
+        "greenbomb": 1,
+        "rocket": 1,
+        "gas": 30,
+        "diamond": 30,
+        "enemy": 8
+    },
+    "map41": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 20,
+        "diamond": 0,
+        "enemy": 12
+    },
+    "map42": {
+        "bomb": 10,
+        "timerbomb": 10,
+        "greenbomb": 10,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 21,
+        "enemy": 17
+    },
+    "map43": {
+        "bomb": 1,
+        "timerbomb": 1,
+        "greenbomb": 1,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 0,
+        "enemy": 8
+    },
+    "map44": {
+        "bomb": 5,
+        "timerbomb": 5,
+        "greenbomb": 4,
+        "rocket": 0,
+        "gas": 30,
+        "diamond": 36,
+        "enemy": 19
+    },
+    "map45": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 50,
+        "diamond": 0,
+        "enemy": 6
+    },
+    "map46": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 80,
+        "diamond": 0,
+        "enemy": 14
+    },
+    "map47": {
+        "bomb": 1,
+        "timerbomb": 1,
+        "greenbomb": 1,
+        "rocket": 1,
+        "gas": 50,
+        "diamond": 30,
+        "enemy": 9
+    },
+    "map48": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 60,
+        "diamond": 0,
+        "enemy": 10
+    },
+    "map49": {
+        "bomb": 5,
+        "timerbomb": 5,
+        "greenbomb": 5,
+        "rocket": 5,
+        "gas": 50,
+        "diamond": 18,
+        "enemy": 16
+    },
+    "map50": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 20,
+        "diamond": 46,
+        "enemy": 23
+    },
+    "map51": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 40,
+        "diamond": 0,
+        "enemy": 20
+    },
+    "map52": {
+        "bomb": 3,
+        "timerbomb": 1,
+        "greenbomb": 0,
+        "rocket": 0,
+        "gas": 5,
+        "diamond": 10,
+        "enemy": 5
+    },
+    "map53": {
+        "bomb": 0,
+        "timerbomb": 0,
+        "greenbomb": 3,
+        "rocket": 0,
+        "gas": 50,
+        "diamond": 16,
+        "enemy": 32
+    }
+}

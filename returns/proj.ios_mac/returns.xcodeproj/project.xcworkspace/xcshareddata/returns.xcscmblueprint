@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F38C4CA5-0516-435B-90E9-6B262F17A1CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505" : "Data\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "returns",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DTU_Game\/returns\/proj.ios_mac\/returns.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/aptech-eproject3.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b2fd7cba-8217-93ee-cf10-b5c5ed13cade++505"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Player_1_1_1_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,106},{112,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{34,12},{112,95}}</string>
+				<key>sourceSize</key>
+				<string>{175,128}</string>
+			</dict>
+
+			<key>Player_1_1_1_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{113,0},{112,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{34,10},{112,97}}</string>
+				<key>sourceSize</key>
+				<string>{175,128}</string>
+			</dict>
+
+			<key>Player_1_1_2_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,106},{112,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{34,12},{112,95}}</string>
+				<key>sourceSize</key>
+				<string>{175,128}</string>
+			</dict>
+
+			<key>Player_1_1_2_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{113,0},{112,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{34,10},{112,97}}</string>
+				<key>sourceSize</key>
+				<string>{175,128}</string>
+			</dict>
+
+			<key>Player_1_1_3_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{113,0},{112,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{34,10},{112,97}}</string>
+				<key>sourceSize</key>
+				<string>{175,128}</string>
+			</dict>
+
+			<key>Player_1_1_3_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{112,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{34,5},{112,105}}</string>
+				<key>sourceSize</key>
+				<string>{175,128}</string>
+			</dict>
+
+			<key>Player_1_1_4_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{113,98},{102,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{36,19},{102,88}}</string>
+				<key>sourceSize</key>
+				<string>{175,128}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{256,256}</string>
+			<key>textureFileName</key>
+			<string>Avatar.png</string>
+			</dict>
+		</dict>
+</plist>
