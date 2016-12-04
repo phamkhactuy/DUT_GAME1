@@ -78,6 +78,7 @@ bool TileMap::init(int level){
                         _tileMap->getMapSize().height * _tileSize.height);
     
     _tileMap->setAnchorPoint(Vec2(0.5,0.5));
+//    _tileMap->setScale(0.6);
     _tileMap->setPosition(VisibleRect::center());
     this->addChild(_tileMap,-1);
     

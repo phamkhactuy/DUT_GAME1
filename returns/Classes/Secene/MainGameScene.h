@@ -37,7 +37,7 @@ public:
     
     CC_SYNTHESIZE(int, _mainLoop, MainLoop);
     
-    
+    void createBackground();
     void createMap();
     void createSkill();
     void createPlayer();

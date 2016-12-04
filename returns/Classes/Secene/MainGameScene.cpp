@@ -13,6 +13,7 @@
 #include "Constants.h"
 
 USING_NS_CC;
+USING_NS_CC_WIDGET;
 
 MainGameScene* MainGameScene::_instance = NULL;
 
@@ -60,6 +61,7 @@ bool MainGameScene::init()
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     
+    createBackground();
     createMap();
     createSkill();
     createPlayer();
@@ -68,6 +70,15 @@ bool MainGameScene::init()
     this->scheduleUpdate();
     
     return true;
+}
+
+void MainGameScene::createBackground(){
+    
+    CImageView *image = CImageView::create("Maps/bg_level1.jpg");
+    Sprite *sp = Sprite::create("Maps/bg_level1.jpg");
+    sp->setPosition(WIN_SIZE.width *0.5, WIN_SIZE.height * 0.5);
+    this->addChild(sp,-1);
+    
 }
 
 void MainGameScene::update(float delta){
@@ -85,6 +96,8 @@ void MainGameScene::createSkill(){
     SkillLayer* skillLayer = SkillLayer::create();
     this->guiLayer()->addChild(skillLayer);
 }
+
+
 
 void MainGameScene::createPlayer()
 {
