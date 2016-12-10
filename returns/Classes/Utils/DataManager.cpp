@@ -2,7 +2,7 @@
 //  DataManager.cpp
 //  gamebase
 //
-//  Created by Nguyễn Lê Lợi on 4/14/15.
+//  Created by keikan on 4/14/15.
 //
 //
 

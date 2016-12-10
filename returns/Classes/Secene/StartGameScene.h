@@ -17,6 +17,8 @@ class StartGameScene : public SceneDisplay
     
 private:
     static StartGameScene* _instance;
+    void onClickItem(Ref* ref);
+    void createStartLayer();
     
 public:
     
@@ -36,5 +38,6 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(StartGameScene);
+    
 };
 #endif /* defined(__gamebase__StartGameScene__) */

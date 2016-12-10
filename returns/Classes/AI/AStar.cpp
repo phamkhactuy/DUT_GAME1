@@ -2,7 +2,7 @@
 //  AStar.cpp
 //  gamebase
 //
-//  Created by Nguyễn Lê Lợi on 7/9/15.
+//  Created by keikan on 7/9/15.
 //
 //
 

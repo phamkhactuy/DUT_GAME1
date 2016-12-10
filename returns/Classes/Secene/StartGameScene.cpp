@@ -7,9 +7,13 @@
 //
 
 #include "StartGameScene.h"
-
+#include "Constants.h"
+#include <cocos-widget.h>
+#include "VisibleRect.h"
+#include "StartGameLayer.h"
 
 USING_NS_CC;
+USING_NS_CC_WIDGET;
 
 StartGameScene* StartGameScene::_instance = NULL;
 
@@ -53,8 +57,18 @@ bool StartGameScene::init()
     
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
+    createStartLayer();
     
     return true;
+}
+
+void StartGameScene::createStartLayer(){
+    StartGameLayer* startLayer = StartGameLayer::create();
+    this->guiLayer()->addChild(startLayer);
+}
+
+void StartGameScene::onClickItem(cocos2d::Ref *ref){
+    
 }
 
 

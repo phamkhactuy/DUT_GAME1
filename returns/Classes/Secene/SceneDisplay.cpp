@@ -2,7 +2,7 @@
 //  SceneDisplay.cpp
 //  gamebase
 //
-//  Created by Nguyễn Lê Lợi on 5/15/15.
+//  Created by keikan on 5/15/15.
 //
 //
 
