@@ -110,6 +110,9 @@
 		B55DFF7E1D8C532C0021D20D /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = B55DFF791D8C532C0021D20D /* HelloWorld.png */; };
 		B55DFF7F1D8C532C0021D20D /* res in Resources */ = {isa = PBXBuildFile; fileRef = B55DFF7A1D8C532C0021D20D /* res */; };
 		B5CD86D11DFB9C6000A2C69D /* StartGameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5CD86CF1DFB9C6000A2C69D /* StartGameLayer.cpp */; };
+		B5CD86E01DFBAE9500A2C69D /* CompleteGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5CD86DE1DFBAE9500A2C69D /* CompleteGame.cpp */; };
+		B5CD86E51DFBAFA600A2C69D /* GameOverLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5CD86E11DFBAFA600A2C69D /* GameOverLayer.cpp */; };
+		B5CD86E61DFBAFA600A2C69D /* GameWinLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5CD86E31DFBAFA600A2C69D /* GameWinLayer.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -202,12 +205,10 @@
 		B54BCE7D1D8C47D60055C826 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		B54BCE7E1D8C47D60055C826 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B54BCE801D8C47D60055C826 /* Avatar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Avatar.cpp; sourceTree = "<group>"; };
-		B54BCE811D8C47D60055C826 /* Avatar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Avatar.hpp; sourceTree = "<group>"; };
+		B54BCE811D8C47D60055C826 /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
 		B54BCE821D8C47D60055C826 /* DataObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataObject.cpp; sourceTree = "<group>"; };
-		B54BCE831D8C47D60055C826 /* DataObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataObject.hpp; sourceTree = "<group>"; };
+		B54BCE831D8C47D60055C826 /* DataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataObject.h; sourceTree = "<group>"; };
 		B54BCE841D8C47D60055C826 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
-		B54BCE851D8C47D60055C826 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		B54BCE861D8C47D60055C826 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
 		B54BCE881D8C47D60055C826 /* Animator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animator.cpp; sourceTree = "<group>"; };
 		B54BCE891D8C47D60055C826 /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
 		B54BCE8B1D8C47D60055C826 /* ArmatureBtn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArmatureBtn.cpp; sourceTree = "<group>"; };
@@ -324,6 +325,13 @@
 		B55DFF7A1D8C532C0021D20D /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		B5CD86CF1DFB9C6000A2C69D /* StartGameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StartGameLayer.cpp; sourceTree = "<group>"; };
 		B5CD86D01DFB9C6000A2C69D /* StartGameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartGameLayer.h; sourceTree = "<group>"; };
+		B5CD86DE1DFBAE9500A2C69D /* CompleteGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompleteGame.cpp; sourceTree = "<group>"; };
+		B5CD86DF1DFBAE9500A2C69D /* CompleteGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteGame.h; sourceTree = "<group>"; };
+		B5CD86E11DFBAFA600A2C69D /* GameOverLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverLayer.cpp; sourceTree = "<group>"; };
+		B5CD86E21DFBAFA600A2C69D /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
+		B5CD86E31DFBAFA600A2C69D /* GameWinLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWinLayer.cpp; sourceTree = "<group>"; };
+		B5CD86E41DFBAFA600A2C69D /* GameWinLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWinLayer.h; sourceTree = "<group>"; };
+		B5CD86E71DFBB23B00A2C69D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -545,12 +553,11 @@
 			isa = PBXGroup;
 			children = (
 				B54BCE801D8C47D60055C826 /* Avatar.cpp */,
-				B54BCE811D8C47D60055C826 /* Avatar.hpp */,
+				B54BCE811D8C47D60055C826 /* Avatar.h */,
 				B54BCE821D8C47D60055C826 /* DataObject.cpp */,
-				B54BCE831D8C47D60055C826 /* DataObject.hpp */,
+				B54BCE831D8C47D60055C826 /* DataObject.h */,
 				B54BCE841D8C47D60055C826 /* Player.cpp */,
-				B54BCE851D8C47D60055C826 /* Player.h */,
-				B54BCE861D8C47D60055C826 /* Player.hpp */,
+				B5CD86E71DFBB23B00A2C69D /* Player.h */,
 			);
 			path = GameObjects;
 			sourceTree = "<group>";
@@ -670,6 +677,10 @@
 		B54BCEEC1D8C47D60055C826 /* Layer */ = {
 			isa = PBXGroup;
 			children = (
+				B5CD86E11DFBAFA600A2C69D /* GameOverLayer.cpp */,
+				B5CD86E21DFBAFA600A2C69D /* GameOverLayer.h */,
+				B5CD86E31DFBAFA600A2C69D /* GameWinLayer.cpp */,
+				B5CD86E41DFBAFA600A2C69D /* GameWinLayer.h */,
 				B5CD86CF1DFB9C6000A2C69D /* StartGameLayer.cpp */,
 				B5CD86D01DFB9C6000A2C69D /* StartGameLayer.h */,
 				B54BCEED1D8C47D60055C826 /* SkillLayer.cpp */,
@@ -707,6 +718,8 @@
 		B54BCEF61D8C47D70055C826 /* Secene */ = {
 			isa = PBXGroup;
 			children = (
+				B5CD86DE1DFBAE9500A2C69D /* CompleteGame.cpp */,
+				B5CD86DF1DFBAE9500A2C69D /* CompleteGame.h */,
 				B54BCEF71D8C47D70055C826 /* LoadingScene.cpp */,
 				B54BCEF81D8C47D70055C826 /* LoadingScene.h */,
 				B54BCEF91D8C47D70055C826 /* MainGameScene.cpp */,
@@ -894,11 +907,13 @@
 				B54BCF351D8C47D70055C826 /* WidgetProtocol.cpp in Sources */,
 				B54BCF361D8C47D70055C826 /* WidgetWindow.cpp in Sources */,
 				B54BCF331D8C47D70055C826 /* ToggleView.cpp in Sources */,
+				B5CD86E51DFBAFA600A2C69D /* GameOverLayer.cpp in Sources */,
 				B54BCF121D8C47D70055C826 /* Player.cpp in Sources */,
 				B54BCF4C1D8C47D70055C826 /* GameSingleton.cpp in Sources */,
 				B54BCF421D8C47D70055C826 /* SkillLayer.cpp in Sources */,
 				B54BCF1B1D8C47D70055C826 /* Win32InputBox.cpp in Sources */,
 				B54BCF0D1D8C47D70055C826 /* AStar.cpp in Sources */,
+				B5CD86E61DFBAFA600A2C69D /* GameWinLayer.cpp in Sources */,
 				B54BCF431D8C47D70055C826 /* SkillItem.cpp in Sources */,
 				B54BCF471D8C47D70055C826 /* SceneDisplay.cpp in Sources */,
 				B54BCF181D8C47D70055C826 /* CEditBoxImplAndroid.cpp in Sources */,
@@ -915,6 +930,7 @@
 				B54BCF2E1D8C47D70055C826 /* Scale9Sprite.cpp in Sources */,
 				B54BCF171D8C47D70055C826 /* CEditBoxImpl.cpp in Sources */,
 				B54BCF241D8C47D70055C826 /* ImageView.cpp in Sources */,
+				B5CD86E01DFBAE9500A2C69D /* CompleteGame.cpp in Sources */,
 				B5CD86D11DFB9C6000A2C69D /* StartGameLayer.cpp in Sources */,
 				B54BCF191D8C47D70055C826 /* CEditBoxImplIOS.mm in Sources */,
 				B54BCF371D8C47D70055C826 /* WitlsMacros.cpp in Sources */,

@@ -6,7 +6,7 @@
 //
 //
 
-#include "DataObject.hpp"
+#include "DataObject.h"
 
 USING_NS_CC;
 

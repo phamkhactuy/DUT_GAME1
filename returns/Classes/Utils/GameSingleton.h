@@ -19,6 +19,8 @@ public:
     float getScaleFixWith();
     float getScaleFixHeight();
     
+    CC_SYNTHESIZE(int, level, Level);
+    
 };
 
 #endif // __LOADING_SCENE_H__

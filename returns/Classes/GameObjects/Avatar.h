@@ -1,13 +1,13 @@
 //
-//  Avatar.hpp
+//  Avatar.h
 //  game1
 //
 //  Created by NGOCDIEP on 11/3/15.
 //
 //
 
-#ifndef Avatar_hpp
-#define Avatar_hpp
+#ifndef Avatar_h
+#define Avatar_h
 
 #include <stdio.h>
 #include "cocos2d.h"
@@ -23,4 +23,4 @@ public:
     cocos2d::SpriteFrame* getSpriteFrameByKey(std::string avatarKey);
 };
 
-#endif /* Avatar_hpp */
+#endif /* Avatar_h */

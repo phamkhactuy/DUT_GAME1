@@ -6,7 +6,7 @@
 //
 //
 
-#include "Avatar.hpp"
+#include "Avatar.h"
 
 USING_NS_CC;
 

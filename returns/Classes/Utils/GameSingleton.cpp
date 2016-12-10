@@ -28,7 +28,8 @@ GameSingleton::~GameSingleton()
 
 bool GameSingleton::init(void)
 {
-//    _winsize = Size::ze
+
+    level = 1;
     return true;
 }
 
