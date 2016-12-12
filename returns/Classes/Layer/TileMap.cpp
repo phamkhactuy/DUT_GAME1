@@ -68,7 +68,7 @@ bool TileMap::init(int level){
     if(level < 0)
         return false;
     
-    _tileMap = TMXTiledMap::create(StringUtils::format("res/Maps/level%d.tmx",1));
+    _tileMap = TMXTiledMap::create(StringUtils::format("res/Maps/level%d.tmx",level));
     _layerBackground = _tileMap->getLayer("background");
     _layerItems = _tileMap->getLayer("items");
     
@@ -278,6 +278,7 @@ void TileMap::setIdTile(cocos2d::TMXLayer* layer, cocos2d::Vec2 pos, int id)
 
 
 void TileMap::initCave(int i, int j, int id){
+    //Tao hang thông giữa hai vị trí. Hiện tại 1 map chỉ có thể thống giữa hai vị trí cho nhau
     if(id == IDTILE::TILE_CAVE_1){
         if(_cave_1.x == -1){
             _cave_1.x = i;

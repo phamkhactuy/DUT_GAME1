@@ -11,7 +11,7 @@
 
 #include "SceneDisplay.h"
 #include "TileMap.h"
-#include "Player.hpp"
+#include "Player.h"
 
 class MainGameScene : public SceneDisplay
 {

@@ -1,38 +1,24 @@
 //
-//  StartGameScene.cpp
+//  SplashScene.cpp
 //  gamebase
 //
 //  Created by NGOCDIEP on 4/16/15.
 //
 //
 
-#include "StartGameScene.h"
-#include "Constants.h"
-#include <cocos-widget.h>
-#include "VisibleRect.h"
-#include "StartGameLayer.h"
+#include "CompleteGame.h"
+#include "GameWinLayer.h"
+#include "GameOverLayer.h"
 
 USING_NS_CC;
-USING_NS_CC_WIDGET;
 
-StartGameScene* StartGameScene::_instance = NULL;
-
-StartGameScene::StartGameScene()
-{
-    _instance = NULL;
-}
-StartGameScene::~StartGameScene()
-{
-    _instance = NULL;
-}
-
-Scene* StartGameScene::createScene()
+Scene* CompleteGame::createScene()
 {
     // 'scene' is an autorelease object
     auto scene = Scene::create();
     
     // 'layer' is an autorelease object
-    auto layer = StartGameScene::create();
+    auto layer = CompleteGame::create();
     
     // add layer as a child to scene
     scene->addChild(layer);
@@ -42,12 +28,8 @@ Scene* StartGameScene::createScene()
 }
 
 // on "init" you need to initialize your instance
-bool StartGameScene::init()
+bool CompleteGame::init()
 {
-    
-    //set value instance
-    _instance = this;
-    
     //////////////////////////////
     // 1. super init first
     if ( !Layer::init() )
@@ -57,22 +39,22 @@ bool StartGameScene::init()
     
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
-    createStartLayer();
+    createGameWinLayer();
     
     return true;
 }
 
-void StartGameScene::createStartLayer(){
-    StartGameLayer* startLayer = StartGameLayer::create();
-    this->guiLayer()->addChild(startLayer);
-}
-
-void StartGameScene::onClickItem(cocos2d::Ref *ref){
-    
+void CompleteGame::createGameWinLayer(){
+    GameWinLayer *layer = GameWinLayer::create();
+    this->guiLayer()->addChild(layer);
 }
 
 
-void StartGameScene::menuCloseCallback(Ref* pSender)
+void CompleteGame::createGameOverLayer(){
+
+}
+
+void CompleteGame::menuCloseCallback(Ref* pSender)
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WP8) || (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT)
     MessageBox("You pressed the close button. Windows Store Apps do not implement a close button.","Alert");
@@ -85,6 +67,3 @@ void StartGameScene::menuCloseCallback(Ref* pSender)
     exit(0);
 #endif
 }
-
-
-

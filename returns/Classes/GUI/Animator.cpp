@@ -2,7 +2,7 @@
 //  Animator.cpp
 //  gamebase
 //
-//  Created by Nguyễn Lê Lợi on 9/4/15.
+//  Created by keikan on 9/4/15.
 //
 //
 

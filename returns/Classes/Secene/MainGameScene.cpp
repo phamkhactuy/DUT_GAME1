@@ -11,6 +11,7 @@
 #include "SkillLayer.h"
 #include "ConvertUtils.h"
 #include "Constants.h"
+#include "GameSingleton.h"
 
 USING_NS_CC;
 
@@ -77,7 +78,10 @@ void MainGameScene::update(float delta){
 }
 
 void MainGameScene::createMap(){
-    _map = TileMap::create(1);
+    
+    //Create map with level
+    log("level %d" , GameSingleton::getInstance()->getLevel());
+    _map = TileMap::create(GameSingleton::getInstance()->getLevel());
     this->baseLayer()->addChild(_map);
 }
 

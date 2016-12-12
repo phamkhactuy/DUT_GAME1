@@ -1,32 +1,20 @@
 //
-//  StartGameScene.h
+//  SplashScene.h
 //  gamebase
 //
 //  Created by NGOCDIEP on 4/16/15.
 //
 //
 
-#ifndef __gamebase__StartGameScene__
-#define __gamebase__StartGameScene__
+#ifndef __gamebase__SplashScene__
+#define __gamebase__SplashScene__
 
 #include "SceneDisplay.h"
 
-
-class StartGameScene : public SceneDisplay
+USING_NS_CC;
+class CompleteGame: public SceneDisplay
 {
-    
-private:
-    static StartGameScene* _instance;
-    void onClickItem(Ref* ref);
-    void createStartLayer();
-    
 public:
-    
-    StartGameScene();
-    ~StartGameScene();
-    
-    static StartGameScene * getInstance(){return _instance;};
-    
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
     static cocos2d::Scene* createScene();
     
@@ -37,7 +25,10 @@ public:
     void menuCloseCallback(cocos2d::Ref* pSender);
     
     // implement the "static create()" method manually
-    CREATE_FUNC(StartGameScene);
+    CREATE_FUNC(CompleteGame);
     
+private:
+    void createGameWinLayer();
+    void createGameOverLayer();
 };
-#endif /* defined(__gamebase__StartGameScene__) */
+#endif /* defined(__gamebase__SplashScene__) */

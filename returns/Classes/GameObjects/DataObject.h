@@ -1,16 +1,16 @@
 //
-//  DataObject.hpp
+//  DataObject.h
 //  game1
 //
 //  Created by NGOCDIEP on 11/3/15.
 //
 //
 
-#ifndef DataObject_hpp
-#define DataObject_hpp
+#ifndef DataObject_h
+#define DataObject_h
 
 #include <stdio.h>
-#include "Avatar.hpp"
+#include "Avatar.h"
 
 class DataObject : public Avatar{
     
@@ -46,4 +46,4 @@ private:
     int getBaseDir(int dirChar);
 };
 
-#endif /* DataObject_hpp */
+#endif /* DataObject_h */

@@ -6,13 +6,15 @@
 //
 //
 
-#include "Player.hpp"
+#include "Player.h"
 #include "MainGameScene.h"
 #include "VisibleRect.h"
 #include "ConvertUtils.h"
 #include "TileMap.h"
 #include "Constants.h"
 #include "SkillLayer.h"
+#include "CompleteGame.h"
+
 USING_NS_CC;
 
 #define SPEED_LOOP 5
@@ -115,6 +117,17 @@ void Player::logic(Vec2 posMap, int loop){
         case TILE_BOT:
             this->setDirChar(dirBot);
             break;
+        case TILE_BARRIER://Gặp item nay sẽ đi quay lại
+            if(this->getDirChar() == dirLeft)
+                this->setDirChar(dirRight);
+            else if(this->getDirChar() == dirRight)
+                this->setDirChar(dirLeft);
+            else if(this->getDirChar() == dirTop)
+                this->setDirChar(dirBot);
+            else if(this->getDirChar() == dirBot)
+                this->setDirChar(dirTop);
+    
+            break;
         case TILE_ITEM_1:
             moveOneStep(posMatrix);
             break;
@@ -165,6 +178,8 @@ void Player::logic(Vec2 posMap, int loop){
 
 void Player::gameWin(){
     this->setStateChar(stateDie);
+    auto sence = CompleteGame::createScene();
+    Director::getInstance()->replaceScene(sence);
 }
 
 void Player::moveOneStep(Vec2 posMatrix){

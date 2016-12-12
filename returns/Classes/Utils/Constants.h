@@ -12,6 +12,7 @@
 typedef enum
 {
     TILE_DEFAULT = 0,
+<<<<<<< HEAD
     TILE_LEFT = 16,
     TILE_RIGHT = 17,
     TILE_TOP = 18,
@@ -27,6 +28,24 @@ typedef enum
     TILE_CAVE_2 = 13,
     TILE_CAVE_3 = 14,
     TILE_CAVE_4 = 15,
+=======
+    TILE_LEFT = 28,
+    TILE_RIGHT = 30,
+    TILE_TOP = 29,
+    TILE_BOT = 38,
+    TILE_START = 19,//Vị trí bắt đầu
+    TILE_END = 20,//Vị trí kết thúc
+    TILE_SPRINGS = 25,
+    TILE_FORMAT = 7,
+    TILE_BARRIER = 10,//Vật cản
+    TILE_STAR = 23,//Sao
+    TILE_KEY = 24,
+    TILE_ITEM_1 = 3,//Dịch chuyển 1 bước
+    TILE_CAVE_1 = 1,//Dịch chuyển tức thời
+    TILE_CAVE_2 = 2,//Dịch chuyển tức thời
+    TILE_CAVE_3 = 6,//Dịch chuyển tức thời
+    TILE_CAVE_4 = 4,//Dịch chuyển tức thời
+>>>>>>> origin/developer
     TILE_REMOVE = 1001,
 }IDTILE;
 
